@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: color-page
 spec:
-  replicas: 3
+  replicas: 9
   selector:
     matchLabels:
       app: color-page
