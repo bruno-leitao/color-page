@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: api
@@ -26,6 +26,6 @@ spec:
   selector:
     app: api
   ports:
-  - port: 80  
+  - port: 3333  
     targetPort: 3333
   type: ClusterIP
